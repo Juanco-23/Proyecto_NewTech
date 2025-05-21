@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Proyecto</string>
+
+    //Textos de Activity_Splash
+    <string name="name_app_splash">New Tech</string>
+
+
+    <string name="mensaje_acti_home">Aquí es donde te ofrecemos los mejores productos tecnologicos de calidad</string>
+    <string name="text_bttn_acti_home">Comenzar</string>
+    <string name="textActLogin_correo">Correo Electronico</string>
+    <string name="textActLogin_password">Ingresa el Password</string>
+    <string name="bttn_sesionG_LoginAct">Inicia sesion con Google</string>
+    <string name="nombre_producto_descrip">Nombre Producto</string>
+    <string name="produto_nombre_item">Produto Nombre</string>
+    <string name="precio_product_item">Precio: $1000</string>
+    <string name="title_list_product">Aku Stingray</string>
+    <string name="precio_descrip_product">$ 0.0</string>
+    <string name="bttn_comprar_descrip_product">Comprar</string>
+    <string name="text_descript_producto">Este producto blblblb</string>
+    <string name="text_btt_sesionEmal_LoginAct">Iniciar Sesión</string>
+</resources>

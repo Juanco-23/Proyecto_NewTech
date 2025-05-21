@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="azul_One">#150050</color>
+    <color name="azul_two">#3F0071</color>
+    <color name="azul_three">#610094</color>
+    <color name="backg_1">#222831</color>
+    <color name="backg_2">#393E46</color>
+    <color name="backg_3">#00ADB5</color>
+    <color name="backg_4">#00FFF5</color>
+    <color name="backg_5">#D5D4D4</color>
+
+</resources>

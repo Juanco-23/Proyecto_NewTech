@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_descrip_product"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ico_google_removebg_preview"
+        />
+
+    <TextView
+        android:id="@+id/name_descrip_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_producto_descrip"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:id="@+id/text_descrip_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_descript_producto"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <TextView
+        android:id="@+id/text_precio_descrip_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/precio_descrip_product"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Button
+        android:id="@+id/bttn_comprar_descrp_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bttn_comprar_descrip_product"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="505dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

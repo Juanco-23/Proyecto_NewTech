@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backg_1"
+    >
+
+    <TextView
+        android:id="@+id/txtVw_correoLogin"
+        style="@style/editText_rounded"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:hint="@string/textActLogin_correo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.639"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="53dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/mail_1454734_1280_removebg_preview"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <TextView
+        android:id="@+id/txtVw_passwordLogin"
+        style="@style/editText_rounded"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="68dp"
+        android:hint="@string/textActLogin_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.639"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtVw_correoLogin" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="53dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/cyber_security_1915626_1280_removebg_preview"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <Button
+        android:id="@+id/btt_whitEmail"
+        android:layout_width="330dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="112dp"
+        android:text="@string/text_btt_sesionEmal_LoginAct"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtVw_passwordLogin" />
+
+    <Button
+        android:id="@+id/btt_google"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/backg_3"
+        android:text="@string/bttn_sesionG_LoginAct"
+        android:textAlignment="viewEnd"
+        android:textSize="20sp"
+        app:icon="@drawable/ico_google_removebg_preview"
+        app:iconSize="40dp"
+        app:iconTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtVw_passwordLogin"
+        app:layout_constraintVertical_bias="0.483" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
