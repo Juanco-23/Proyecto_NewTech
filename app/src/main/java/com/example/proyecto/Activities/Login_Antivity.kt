@@ -36,7 +36,7 @@ class Login_Antivity: AppCompatActivity (){
         //Inicio de secion con correo y contraseña
          btt_whitEmail = findViewById(R.id.btt_whitEmail)
          btt_whitEmail.setOnClickListener{
-                val intent = Intent(this, Tienda_Activity::class.java)
+                val intent = Intent(this, Camera_Activity::class.java)
                 startActivity(intent)
 
             }
@@ -89,7 +89,7 @@ class Login_Antivity: AppCompatActivity (){
             Toast.makeText(this, "Bienvenido ${account.displayName}", Toast.LENGTH_SHORT).show()
 
             //Redireccionamiento a main Activity
-            intent = Intent(this, MainActivity::class.java)
+            intent = Intent(this, Maps_Activity::class.java)
             intent.putExtra("email",account.email)
             intent.putExtra("name", account.displayName)
             startActivity(intent)

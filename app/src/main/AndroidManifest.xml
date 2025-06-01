@@ -2,8 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!--Permisos de hardware-->
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="31"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="31" />
 
     <application
         android:allowBackup="true"
@@ -16,9 +27,22 @@
         android:theme="@style/Theme.Proyecto"
         tools:targetApi="31">
 
+        <!--Configuracion de para almacenamiento de datos-->
+        <provider
+            android:authorities="${applicationId}.fileprovider"
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+
+
+        <!--Meta-data para la API maps-->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDsudPrsnzRWB_e1NX8z6y2a2YggR1USak" />
+            android:value="AIzaSyCBtzM5lBbfBQyn2PbFrRDhb_2gddFJQqI" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
@@ -44,6 +68,15 @@
 
         <activity android:name=".Activities.Tienda_Activity"
             android:exported="false" />
+        <activity android:name=".Activities.Maps_Activity"
+            android:exported="false" />
+
+        <activity android:name=".Activities.Camera_Activity"
+            android:exported="false" />
+
+        <activity android:name=".Activities.photoGallery_Activity"
+            android:exported="false" />
+
 
     </application>
 

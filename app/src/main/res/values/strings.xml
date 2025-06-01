@@ -13,9 +13,19 @@
     <string name="nombre_producto_descrip">Nombre Producto</string>
     <string name="produto_nombre_item">Produto Nombre</string>
     <string name="precio_product_item">Precio: $1000</string>
-    <string name="title_list_product">Aku Stingray</string>
+    <string name="title_list_product">New Tech</string>
     <string name="precio_descrip_product">$ 0.0</string>
     <string name="bttn_comprar_descrip_product">Comprar</string>
     <string name="text_descript_producto">Este producto blblblb</string>
     <string name="text_btt_sesionEmal_LoginAct">Iniciar Sesión</string>
+    <string name="bttn_ubication_1">Ubicacion 1</string>
+    <string name="btt_ubication_2">Ubicacion 2</string>
+    <string name="bttn_ubication_2">Ubicacion 2</string>
+    <string name="bttn_ubication_3">Ubicacion 3</string>
+    <string name="capturar_imagen_actyCamera">Capturar Imagen</string>
+    <string name="take_photo_actCamera">Take Photo</string>
+    <string name="view_gallery_actyCamera">View Gallery</string>
+    <string name="title_toolbar_act_photo_gallery">My Gallery</string>
+    <string name="mini_foto_decrip_item_gall">Miniatura de foto</string>
+    <string name="text_empty_act_photo_gallery">No hay fotos guardadas</string>
 </resources>

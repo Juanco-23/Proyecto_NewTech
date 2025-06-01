@@ -15,13 +15,14 @@
         android:padding="4dp">
 
         <ImageView
-            android:id="@+id/img_product"
+            android:id="@+id/img_product_item"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:scaleType="centerCrop"
             android:src="@drawable/logo_app"/>
 
             <TextView
+                android:id="@+id/nombre_product_item"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/produto_nombre_item"
@@ -29,6 +30,7 @@
                 android:textStyle="bold"/>
                 
                 <TextView
+                    android:id="@+id/pres_product_item"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/precio_product_item"

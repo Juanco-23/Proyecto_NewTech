@@ -21,7 +21,6 @@
 
     <TextView
 
-
         android:id="@+id/textView_splash"
         android:layout_width="268dp"
         android:layout_height="wrap_content"
